@@ -17,7 +17,7 @@
       Deve aparecer no começo do body
     </div>
   </teleport>
-  <teleport to="[data-start-too-of-body]">
+  <teleport to="[data-start-too]">
     <div>
       Deve aparecer no começo do body também
     </div>
