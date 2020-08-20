@@ -24,8 +24,8 @@
     <!-------------- Multiple v-model ------------->
     <div class="my-8">
       <multi-model v-model:name="name" v-model:lastName="lastName" />
-      <!-- <div class="mt-8">Nome: {{ name }}</div>
-      <div>Sobrenome: {{ lastName }}</div> -->
+      <div class="mt-8">Nome: {{ name }}</div>
+      <div>Sobrenome: {{ lastName }}</div>
     </div>
 
     <!-------------------- teleports ----------->
@@ -50,7 +50,7 @@ export default {
   components: {
     // TodoOptions,
     // MultiModel,
-    // MyTeleport
+    MyTeleport
     // ListUsers,
     // TodoComposition
   },
